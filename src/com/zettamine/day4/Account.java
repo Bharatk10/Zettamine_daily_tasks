@@ -10,7 +10,7 @@ import lombok.Setter;
 public abstract class Account {
 	
 	protected int accountNumber;
-    protected Customer customerObsj;
+    protected Customer customerObj;
     protected double balance;
     
     public abstract boolean withdraw(double amount);

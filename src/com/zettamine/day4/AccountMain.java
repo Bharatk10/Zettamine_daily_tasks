@@ -80,8 +80,7 @@ public class AccountMain {
         return matcher.matches();
 	}
 	private static boolean checkNumber(String number) {
-		
-		
+
 		if(number.matches("^[0-9]+$")) {
 			return true;
 		}
