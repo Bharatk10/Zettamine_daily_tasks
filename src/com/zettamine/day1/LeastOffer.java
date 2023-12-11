@@ -15,6 +15,7 @@ public class LeastOffer {
 		List<Item> items = new ArrayList<>();
 		
 		while(idx<noOfitems) {
+			System.out.println("Enter the Data of an item:");
 			String data= sc.next();
 			String[] itemArray =data.split(",");
 			
