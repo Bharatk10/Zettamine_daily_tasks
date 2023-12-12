@@ -70,6 +70,7 @@ public class ShapeMain {
 			 
 	default:System.out.println("\nInvalid shape slection :: try again ---\t close the app"); 
 			System.out.println();
+			sc.close();
 			break;
 			}
 		}
