@@ -9,6 +9,7 @@ import lombok.Getter;
 @AllArgsConstructor
 public class Product implements Serializable {
 	
+	private static final long serialVersionUID = 8037099817277177103L;
 	private int productId;
 	private String productName;
 	

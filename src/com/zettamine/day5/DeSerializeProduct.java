@@ -18,7 +18,7 @@ public class DeSerializeProduct {
 	static List<Product> products = new ArrayList<>();
 
 	public static void main(String[] args) {
-		String fileName = "C:\\Users\\Bharat Kumar\\Deskto\\Stocks.ser";
+		String fileName = "C:\\Users\\Bharat Kumar\\Desktop\\Stocks.ser";
 		try {
 			deSerializeProducts(fileName);
 		} catch (FileNotFoundException e) {
@@ -35,11 +35,17 @@ public class DeSerializeProduct {
 		sc.nextLine();
 		
 		boolean check = checkProductName(productId);
-		for(Product product : products) {
-			if(product.getProductId()==productId) {
-				System.out.println("Product Name is: "+product.getProductName());
+		if(check) {
+			for(Product product : products) {
+				if(product.getProductId()==productId) {
+					System.out.println("Product Name is: "+product.getProductName());
+				}
 			}
 		}
+		else {
+			System.err.println("Enetered Product is not in the list\n---\tTry again\t---");
+		}
+		
 		
 	}
 	private static boolean checkProductName(int productId) {
