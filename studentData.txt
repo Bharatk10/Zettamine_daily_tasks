@@ -1,0 +1,3 @@
+StudentMarks(roolNo=401, stdName=Bharat, subjectMarksHS=[98, 67, 43, 78], subjectMarksTS=[43, 67, 78, 98])
+StudentMarks(roolNo=56, stdName=Kumar, subjectMarksHS=[65, 88, 77], subjectMarksTS=[65, 77, 88])
+StudentMarks(roolNo=403, stdName=Vikas, subjectMarksHS=[98, 44], subjectMarksTS=[44, 98])

@@ -12,7 +12,7 @@ public class CopyDosCommand {
 	public static void main(String[] args) throws IOException {
 		
 		File dir1 = new File("C:/CJava");
-        File dir2 = new File("C:/DJava/FJava");
+        File dir2 = new File("C:/DJava");
 
         if (!dir2.exists()) {
             dir2.mkdirs();
@@ -22,8 +22,7 @@ public class CopyDosCommand {
 
         if (files != null) {
             for (File file : files) {
-            	if(file.isDirectory()) {
-            		//System.out.println("File is a Directory"+file.getName());
+            	if(file.isDirectory()) { 
             		File dir = new File(dir2+"/"+file.getName());
             		if(!dir.exists()) {
             			dir.mkdir();
@@ -58,7 +57,6 @@ public class CopyDosCommand {
                 
             }
         }
-
         System.out.println("Files Copied");
 		
 	}
