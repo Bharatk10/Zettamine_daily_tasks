@@ -1,0 +1,3 @@
+Product(prodCode=HP102, prodName=HP INvasion, availability=32, price=40000.0)
+Product(prodCode=D4321, prodName=Dell Inspiron, availability=50000, price=50000.0)
+Product(prodCode=H987, prodName=Dell Vostra, availability=321, price=45000.0)

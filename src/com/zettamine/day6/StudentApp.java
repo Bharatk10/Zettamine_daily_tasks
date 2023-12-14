@@ -19,9 +19,7 @@ public class StudentApp {
 			details = sc.nextLine();
 			
 		
-	    //bharat vizag bha@gmail 8001221
-			//bharat vizag iuqhi 809080
-			//bhj bengaluru uudsh 081208
+	   
 		String[] detailsArr = details.split(" ");
 		
 		try{
